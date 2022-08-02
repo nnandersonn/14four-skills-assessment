@@ -1,0 +1,131 @@
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-container {
+    background-image: linear-gradient(#3D3D3D 0%, #242424 20%, #1F1F1F);
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    border: solid 2px #4D4D4D;
+    width: 280px;
+    border-radius: 15px;
+}
+
+.contacts-header {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    padding-left: 17px;
+    align-items: center;
+    color: white;
+    border-bottom: solid 1px black;
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+.individual-contact-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 37px;
+    align-items: center;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.contact-name-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    border-right: solid black 1px;
+}
+
+.contact-availability {
+    width: 9px;
+    margin-left: 17px;
+}
+
+.contact-name {
+    color: white;
+    /* font-size: 12pt; */
+    padding-left: 13px;
+}
+
+.contact-info {
+    padding-left: 18px;
+    width: 60%;
+    color: #4C4C4C;
+}
+
+.contacts-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    vertical-align: center;
+    height: 46px;
+    padding-right: 17px;
+    border-top: solid black 1px;
+}
+
+#online {
+    background-color: #00FF1D;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+}
+
+#away {
+    background-color: #C3C117;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+}
+
+#offline {
+    background-color: #FF0000;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+}
+
+.light {
+    background-color: #212121;
+}
+
+.dark {
+    background-color: #1A1A1A;
+}
+
+.selected {
+    background-color: #484848;
+    
+}
+
+.not-selected {
+    background-color: #070707;
+}
+
+.selected-info {
+    color: white;
+    position: relative;
+    top: 50px;
+    background-color: #484848;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #0AF0F8;
+}
